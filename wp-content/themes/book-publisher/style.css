@@ -1,0 +1,120 @@
+@charset "UTF-8";
+/*
+Theme Name: Book Publisher
+Author: TheMagnifico52
+Theme URI: https://www.themagnifico.net/themes/free-publisher-wordpress-theme/
+Author URI: https://www.themagnifico.net/
+Description: Book Publisher is an absolute perfect option to create website for book club, bookstore, publishing agency, author, writer, literature, publishing house, and any such related websites. The design is eye-catchy, professional and modern in look. It includes multiple ready-made detailed pages: About Us, Authors, Products, Contacts etc. You can import demo content with one-click demo importer, they make it easier to get started. You can transform this multipurpose theme to anything as you like to, and create unique and complex page layouts with custom and intuitive drag and drop page builder without any coding knowledge required. You can show detailed information about author and publisher using custom Profile post type. You can display books author’s list, their biography information and social links. It has a responsive layout that fits perfectly and looks stunning on any device screen size. You don’t need to worry much about the SEO of your website, as the theme takes care of it. The codes are well optimized and clean. It is translation-ready with RTL support. It is compatible with the most popular contact form plugins: Contact Form 7, Ninja Forms – The Easy and Powerful Forms Builder; Contact Form by WPForms – Drag & Drop Form Builder for WordPress.
+Version: 0.2.4
+Tested up to: 6.2
+Requires PHP: 5.6
+Requires at least: 5.0
+License: GPLv2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Template: digital-books
+Text Domain: book-publisher
+Tags: custom-logo, one-column, two-columns, wide-blocks, block-styles, editor-style, sticky-post, custom-background, custom-colors, custom-header, custom-menu, footer-widgets, featured-images, flexible-header, full-width-template, threaded-comments, theme-options, rtl-language-support, left-sidebar, right-sidebar, grid-layout, blog, e-commerce, education
+
+Book Publisher WordPress Theme has been created by TheMagnifico52(themagnifico.net), 2022.
+Book Publisher WordPress Theme is released under the terms of GNU GPL
+*/
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Ubuntu', sans-serif;
+}
+.social-link i:hover,a, .sidebar ul li a:hover, #colophon a:hover, #colophon a:focus, p.price, .woocommerce ul.products li.product .price, .woocommerce div.product p.price, .woocommerce div.product span.price, .woocommerce-message::before, .woocommerce-info::before, .slider-inner-box a h2,.slider-inner-box h2,.main-navigation .menu > li > a:hover,.woocommerce .star-rating span::before{
+    color: #fc3656;
+}
+.sidebar .tagcloud a:hover,.sticky .entry-title::before, .main-navigation .sub-menu, #button, .sidebar input[type="submit"], .comment-respond input#submit, .post-navigation .nav-previous a:hover, .post-navigation .nav-next a:hover, .posts-navigation .nav-previous a:hover, .posts-navigation .nav-next a:hover, .woocommerce .woocommerce-ordering select, .woocommerce ul.products li.product .onsale, .woocommerce span.onsale, .pro-button a, .woocommerce #respond input#submit, .woocommerce a.button, .woocommerce button.button, .woocommerce input.button, .woocommerce #respond input#submit.alt, .woocommerce a.button.alt, .woocommerce button.button.alt, .woocommerce input.button.alt, .wp-block-button__link, .serv-box:hover, .woocommerce-account .woocommerce-MyAccount-navigation ul li, .btn-primary, .sidebar h5, .toggle-nav i, span.onsale, .slide-btn a, .serach_inner [type="submit"],span.cart-value,.slide-btn a:hover,.woocommerce a.added_to_cart,a.account-btn:hover {
+    background: #fc3656;
+}
+#colophon,.top-info,.serach_inner,#top-slider{
+    background: #373737;
+}
+.pro-button a:hover,
+.woocommerce #respond input#submit:hover,
+.woocommerce a.button:hover,
+.woocommerce button.button:hover,
+.woocommerce input.button:hover,
+.woocommerce #respond input#submit.alt:hover,
+.woocommerce a.button.alt:hover,
+.woocommerce button.button.alt:hover,
+.woocommerce input.button.alt:hover,
+.woocommerce a.added_to_cart:hover{
+    border: solid 2px #fc3656;
+    background: transparent;
+    color: #fc3656;
+}
+.btn-primary,.wp-block-quote, .wp-block-quote:not(.is-large):not(.is-style-large), .wp-block-pullquote{
+    border-color: #fc3656 !important;
+}
+.search-box {
+    display: none;
+}
+.main-navigation .menu > li > a:hover {
+    background: #fc3656;
+    color: #fff !important;
+    border-radius: 5px;
+}
+.top-info p{
+    color: #fff;
+}
+.slider-inner-box {
+    text-align: left;
+}
+.slide-btn a {
+    padding: 15px 25px;
+    border-radius: 5px;
+}
+#latest-product h3 {
+    font-size: 35px;
+}
+.product-image {
+    position: relative;
+}
+.product-box {
+    background: #ededed;
+    padding: 15px;
+    text-align: center;
+}
+.product-box h3 a {
+    color: #353535;
+    font-size: 16px;
+}
+.product-box h3 {
+    line-height: 16px;
+    margin-bottom: 15px;
+}
+.product-box img {
+    margin-bottom: 15px;
+}
+.product-box h5.price{
+    color: #fc3656;
+}
+.product-box span.onsale {
+    padding: 5px 10px;
+}
+span.cart-value{
+    top: -11px;
+    left: -6px;
+    position: relative;
+}
+
+@media screen and (min-width: 320px) and (max-width: 720px){
+   .sidenav #site-navigation {
+        padding: 40px 0;
+    }
+    .main-navigation .sub-menu,.main-navigation .menu > li > a:hover, .current-menu-item a{
+        background: transparent;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1000px){
+  i.far.fa-times-circle {
+      padding: 50px;
+  }
+.sidenav .closebtn{
+  right: 0;
+}
+
+}
